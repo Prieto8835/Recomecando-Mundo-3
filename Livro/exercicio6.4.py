@@ -1,0 +1,1 @@
+#programa vai apresentar erro ao tentar excluir o elemento se a lista já estiver vazia
