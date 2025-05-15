@@ -26,10 +26,10 @@ print('~'*60)
 print('Mulheres cadastradas: ')
 for mulher in lista:
     if mulher['Sexo'] == 'F':
-        print(f'-----> {mulher['Nome']}')
+        print(f'-----> {mulher["Nome"]}')
 print('~'*60)
 
 print('Pessoas acima da média de idade: ')
 for acima in lista:
     if acima['Idade'] >= media/len(lista):
-      print(f'-----> {acima['Nome']}')
+      print(f'-----> {acima["Nome"]}')
